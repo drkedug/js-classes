@@ -4,7 +4,8 @@ describe("calculadora", () => {
   it("correctly sum single digit numbers", () => {
     const input1 = 3;
     const input2 = 5;
-    const output = calculadora(input1, input2, "+");
+    const input3 = "*";
+    const output = calculadora(input1, input2, input3);
 
     const result = 8;
     expect(output).toEqual(result);
