@@ -99,4 +99,6 @@ describe("calculadora", () => {
     const result = "invalid operator";
     expect(output).toEqual(result);
   });
+
+  //quer ver um negocio doido?
 });
