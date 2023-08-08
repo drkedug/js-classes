@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/drkedug/js-classes/issues"
   },
-  "homepage": "https://github.com/drkedug/js-classes#readme"
+  "homepage": "https://github.com/drkedug/js-classes#readme",
+  "dependencies": {
+    "jest": "^29.6.2"
+  }
 }
