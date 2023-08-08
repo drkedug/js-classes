@@ -12,3 +12,27 @@
 
   Se o operador for invalido, retornar "invalid operator"
 */
+
+const calculadora = (valor1, valor2, operador) => {
+  let resultado;
+  if(operador === "+") {
+    resultado = valor1+valor2;
+  } else if(operador === "-") {
+    resultado = valor1-valor2;
+  } else if(operador === "*") {
+    resultado = valor1*valor2;
+  } else if(operador === "/") {
+    if(valor2 === 0) {
+      resultado = "cannot divide by 0!";
+    } else {
+      resultado = valor1/valor2;
+    }
+    
+  } else {
+    resultado = "invalid operator"
+  }
+  
+  return resultado;
+}
+
+module.exports = { calculadora };
