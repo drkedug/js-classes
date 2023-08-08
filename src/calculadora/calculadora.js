@@ -9,4 +9,6 @@
   Então calculadora(1,2, "+") tem que retornar 3. E calculadora(4,1, "/") tem que retornar 4
 
   Será verificado os resultados, e é esperado que tentativa de dividir por 0 retorne a frase: "cannot divide by 0!"
+
+  Se o operador for invalido, retornar "invalid operator"
 */
