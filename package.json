@@ -1,0 +1,19 @@
+{
+  "name": "js-classes",
+  "version": "1.0.0",
+  "description": "a project to teach JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drkedug/js-classes.git"
+  },
+  "author": "Derek Eduardo Goncalves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drkedug/js-classes/issues"
+  },
+  "homepage": "https://github.com/drkedug/js-classes#readme"
+}
