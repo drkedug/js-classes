@@ -1,5 +1,7 @@
+const { ex1 } = require("./chatgptIdeas/ex1");
+
 const app = () => {
-    console.log('Hello Mr.Derekson');
+    console.log(ex1());
 }
 
 module.exports = { app };
